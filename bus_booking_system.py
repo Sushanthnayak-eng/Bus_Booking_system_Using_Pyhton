@@ -156,8 +156,15 @@ class BusBookingSystem:
         """Add a bus to a specific route."""
         if route_id not in self.routes:
             return None
+        
+        # Check for duplicate bus ID on this route
+        route = self.routes[route_id]
+        for existing_bus in route.buses:
+            if existing_bus.bus_id == bus_id:
+                return None
+        
         bus = Bus(bus_id, bus_name, total_seats, fare)
-        self.routes[route_id].add_bus(bus)
+        route.add_bus(bus)
         return bus
     
     def search_routes(self, source: str, destination: str) -> List[Route]:
@@ -288,14 +295,14 @@ def main():
     # Initialize with some sample data if the system is empty
     if not system.routes:
         print("Initializing system with sample data...")
-        route1 = system.add_route("R001", "Mumbai", "Pune", 150)
+        system.add_route("R001", "Mumbai", "Pune", 150)
         system.add_bus_to_route("R001", "B001", "Volvo AC", 40, 500)
         system.add_bus_to_route("R001", "B002", "Mercedes Sleeper", 36, 800)
         
-        route2 = system.add_route("R002", "Delhi", "Jaipur", 280)
+        system.add_route("R002", "Delhi", "Jaipur", 280)
         system.add_bus_to_route("R002", "B003", "Scania Multi-Axle", 45, 600)
         
-        route3 = system.add_route("R003", "Bangalore", "Mysore", 145)
+        system.add_route("R003", "Bangalore", "Mysore", 145)
         system.add_bus_to_route("R003", "B004", "Ashok Leyland AC", 40, 450)
         
         system.save_data()
@@ -492,7 +499,10 @@ def main():
                     system.save_data()
                     print(f"\nBus {bus_id} added to route {route_id} successfully!")
                 else:
-                    print("\nFailed to add bus! Invalid route ID.")
+                    if route_id not in system.routes:
+                        print("\nFailed to add bus! Invalid route ID.")
+                    else:
+                        print(f"\nFailed to add bus! Bus ID {bus_id} already exists on this route.")
             except ValueError:
                 print("\nInvalid input values!")
         
