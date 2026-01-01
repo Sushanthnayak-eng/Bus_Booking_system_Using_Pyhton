@@ -250,7 +250,8 @@ class BusBookingSystem:
                            for bid, booking_data in data.get('bookings', {}).items()}
             self.booking_counter = data.get('booking_counter', 1)
         except Exception as e:
-            print(f"Error loading data: {e}")
+            print(f"Error loading booking data from {self.data_file}: {e}")
+            print("Starting with empty database. Previous data may be corrupted or file may have wrong permissions.")
 
 
 def display_menu():
@@ -356,6 +357,30 @@ def main():
             passenger_name = input("Enter passenger name: ").strip()
             passenger_phone = input("Enter phone number: ").strip()
             
+            # Check if route and bus exist first for better error messages
+            if route_id not in system.routes:
+                print("\nBooking failed! Invalid route ID.")
+                continue
+            
+            route = system.routes[route_id]
+            bus = None
+            for b in route.buses:
+                if b.bus_id == bus_id:
+                    bus = b
+                    break
+            
+            if not bus:
+                print("\nBooking failed! Invalid bus ID for this route.")
+                continue
+            
+            if seat_number < 1 or seat_number > bus.total_seats:
+                print(f"\nBooking failed! Seat number must be between 1 and {bus.total_seats}.")
+                continue
+            
+            if seat_number in bus.booked_seats:
+                print(f"\nBooking failed! Seat {seat_number} is already booked. Please choose another seat.")
+                continue
+            
             booking = system.create_booking(passenger_name, passenger_phone, 
                                           route_id, bus_id, seat_number)
             
@@ -371,8 +396,6 @@ def main():
                 print(f"Fare: ₹{booking.fare}")
                 print(f"Booking Date: {booking.booking_date}")
                 print("="*50)
-            else:
-                print("\nBooking failed! Seat might be already booked or invalid details provided.")
         
         elif choice == "5":
             booking_id = input("Enter booking ID: ").strip()
