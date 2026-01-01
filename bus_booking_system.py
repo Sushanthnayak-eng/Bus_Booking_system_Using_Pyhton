@@ -232,8 +232,12 @@ class BusBookingSystem:
             'bookings': {bid: booking.to_dict() for bid, booking in self.bookings.items()},
             'booking_counter': self.booking_counter
         }
-        with open(self.data_file, 'w') as f:
-            json.dump(data, f, indent=2)
+        try:
+            with open(self.data_file, 'w') as f:
+                json.dump(data, f, indent=2)
+        except (IOError, OSError, PermissionError) as e:
+            print(f"\nWarning: Failed to save data to {self.data_file}: {e}")
+            print("Your changes may not be persisted.")
     
     def load_data(self) -> None:
         """Load data from file if it exists."""
@@ -249,9 +253,15 @@ class BusBookingSystem:
             self.bookings = {bid: Booking.from_dict(booking_data) 
                            for bid, booking_data in data.get('bookings', {}).items()}
             self.booking_counter = data.get('booking_counter', 1)
-        except Exception as e:
-            print(f"Error loading booking data from {self.data_file}: {e}")
-            print("Starting with empty database. Previous data may be corrupted or file may have wrong permissions.")
+        except json.JSONDecodeError as e:
+            print(f"Error: Booking data file is corrupted: {e}")
+            print("Starting with empty database.")
+        except (IOError, OSError, PermissionError) as e:
+            print(f"Error: Cannot read booking data file {self.data_file}: {e}")
+            print("Starting with empty database. Check file permissions.")
+        except KeyError as e:
+            print(f"Error: Invalid data format in booking file: {e}")
+            print("Starting with empty database.")
 
 
 def display_menu():
@@ -356,11 +366,6 @@ def main():
             
             passenger_name = input("Enter passenger name: ").strip()
             passenger_phone = input("Enter phone number: ").strip()
-            
-            # Check if route and bus exist first for better error messages
-            if route_id not in system.routes:
-                print("\nBooking failed! Invalid route ID.")
-                continue
             
             route = system.routes[route_id]
             bus = None
