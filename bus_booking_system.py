@@ -319,6 +319,11 @@ def main():
         elif choice == "2":
             source = input("Enter source city: ").strip()
             destination = input("Enter destination city: ").strip()
+            
+            if not source or not destination:
+                print("\nSearch failed! Source and destination cannot be empty.")
+                continue
+            
             routes = system.search_routes(source, destination)
             
             if not routes:
@@ -366,6 +371,14 @@ def main():
             
             passenger_name = input("Enter passenger name: ").strip()
             passenger_phone = input("Enter phone number: ").strip()
+            
+            if not passenger_name:
+                print("\nBooking failed! Passenger name cannot be empty.")
+                continue
+            
+            if not passenger_phone:
+                print("\nBooking failed! Phone number cannot be empty.")
+                continue
             
             route = system.routes[route_id]
             bus = None
@@ -434,6 +447,14 @@ def main():
             destination = input("Enter destination city: ").strip()
             distance = input("Enter distance (km): ").strip()
             
+            if not route_id or not source or not destination:
+                print("\nFailed to add route! Route ID, source, and destination cannot be empty.")
+                continue
+            
+            if route_id in system.routes:
+                print(f"\nFailed to add route! Route ID {route_id} already exists.")
+                continue
+            
             try:
                 distance = float(distance)
                 system.add_route(route_id, source, destination, distance)
@@ -450,9 +471,22 @@ def main():
             total_seats = input("Enter total seats: ").strip()
             fare = input("Enter fare: ").strip()
             
+            if not route_id or not bus_id or not bus_name:
+                print("\nFailed to add bus! Route ID, bus ID, and bus name cannot be empty.")
+                continue
+            
             try:
                 total_seats = int(total_seats)
                 fare = float(fare)
+                
+                if total_seats <= 0:
+                    print("\nFailed to add bus! Total seats must be greater than 0.")
+                    continue
+                
+                if fare <= 0:
+                    print("\nFailed to add bus! Fare must be greater than 0.")
+                    continue
+                
                 bus = system.add_bus_to_route(route_id, bus_id, bus_name, total_seats, fare)
                 if bus:
                     system.save_data()
