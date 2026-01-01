@@ -1,0 +1,1919 @@
+{
+  "Mumbai-Delhi": [
+    {
+      "bus_id": 1,
+      "name": "Express Travels #1",
+      "route": [
+        "Mumbai",
+        "Delhi"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 1001,
+      "bus_type": "Seater",
+      "booked_seats": [
+        3,
+        4,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        31,
+        32,
+        35,
+        36,
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        13,
+        14,
+        17,
+        18,
+        21,
+        22,
+        26,
+        27,
+        30,
+        34,
+        33,
+        29,
+        25
+      ]
+    },
+    {
+      "bus_id": 2,
+      "name": "Swift Transport #2",
+      "route": [
+        "Mumbai",
+        "Delhi"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 32,
+      "base_price": 1885,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Mumbai-Bangalore": [
+    {
+      "bus_id": 3,
+      "name": "Comfort Coaches #3",
+      "route": [
+        "Mumbai",
+        "Bangalore"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 32,
+      "base_price": 691,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 4,
+      "name": "Swift Transport #4",
+      "route": [
+        "Mumbai",
+        "Bangalore"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 40,
+      "base_price": 554,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Mumbai-Chennai": [
+    {
+      "bus_id": 5,
+      "name": "Comfort Coaches #5",
+      "route": [
+        "Mumbai",
+        "Chennai"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 1706,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 6,
+      "name": "Express Travels #6",
+      "route": [
+        "Mumbai",
+        "Chennai"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 1365,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Mumbai-Kolkata": [
+    {
+      "bus_id": 7,
+      "name": "Swift Transport #7",
+      "route": [
+        "Mumbai",
+        "Kolkata"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 709,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 8,
+      "name": "Comfort Coaches #8",
+      "route": [
+        "Mumbai",
+        "Kolkata"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 36,
+      "base_price": 1204,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 9,
+      "name": "Royal Roadways #9",
+      "route": [
+        "Mumbai",
+        "Kolkata"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1440,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Mumbai-Hyderabad": [
+    {
+      "bus_id": 10,
+      "name": "Comfort Coaches #10",
+      "route": [
+        "Mumbai",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1100,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 11,
+      "name": "Royal Roadways #11",
+      "route": [
+        "Mumbai",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1942,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Mumbai-Pune": [
+    {
+      "bus_id": 12,
+      "name": "Swift Transport #12",
+      "route": [
+        "Mumbai",
+        "Pune"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 976,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 13,
+      "name": "Comfort Coaches #13",
+      "route": [
+        "Mumbai",
+        "Pune"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 36,
+      "base_price": 1801,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Mumbai-Ahmedabad": [
+    {
+      "bus_id": 14,
+      "name": "Royal Roadways #14",
+      "route": [
+        "Mumbai",
+        "Ahmedabad"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 1872,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 15,
+      "name": "Express Travels #15",
+      "route": [
+        "Mumbai",
+        "Ahmedabad"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 40,
+      "base_price": 850,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Delhi-Mumbai": [
+    {
+      "bus_id": 16,
+      "name": "Swift Transport #16",
+      "route": [
+        "Delhi",
+        "Mumbai"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 1052,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 17,
+      "name": "Swift Transport #17",
+      "route": [
+        "Delhi",
+        "Mumbai"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 614,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 136,
+      "name": "sugama",
+      "route": [
+        "Delhi",
+        "Mumbai"
+      ],
+      "departure_time": "10:00 PM",
+      "total_seats": 40,
+      "base_price": 500,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Delhi-Bangalore": [
+    {
+      "bus_id": 18,
+      "name": "Royal Roadways #18",
+      "route": [
+        "Delhi",
+        "Bangalore"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 635,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 19,
+      "name": "Royal Roadways #19",
+      "route": [
+        "Delhi",
+        "Bangalore"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 1522,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Delhi-Chennai": [
+    {
+      "bus_id": 20,
+      "name": "Swift Transport #20",
+      "route": [
+        "Delhi",
+        "Chennai"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 1005,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 21,
+      "name": "Royal Roadways #21",
+      "route": [
+        "Delhi",
+        "Chennai"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 40,
+      "base_price": 1377,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 22,
+      "name": "Comfort Coaches #22",
+      "route": [
+        "Delhi",
+        "Chennai"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 783,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Delhi-Kolkata": [
+    {
+      "bus_id": 23,
+      "name": "Express Travels #23",
+      "route": [
+        "Delhi",
+        "Kolkata"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 32,
+      "base_price": 813,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 24,
+      "name": "Swift Transport #24",
+      "route": [
+        "Delhi",
+        "Kolkata"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 1721,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 25,
+      "name": "Comfort Coaches #25",
+      "route": [
+        "Delhi",
+        "Kolkata"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 40,
+      "base_price": 1458,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Delhi-Hyderabad": [
+    {
+      "bus_id": 26,
+      "name": "Express Travels #26",
+      "route": [
+        "Delhi",
+        "Hyderabad"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 40,
+      "base_price": 734,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 27,
+      "name": "Royal Roadways #27",
+      "route": [
+        "Delhi",
+        "Hyderabad"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 728,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 28,
+      "name": "Comfort Coaches #28",
+      "route": [
+        "Delhi",
+        "Hyderabad"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 506,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Delhi-Pune": [
+    {
+      "bus_id": 29,
+      "name": "Swift Transport #29",
+      "route": [
+        "Delhi",
+        "Pune"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1780,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 30,
+      "name": "Swift Transport #30",
+      "route": [
+        "Delhi",
+        "Pune"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 830,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 31,
+      "name": "Express Travels #31",
+      "route": [
+        "Delhi",
+        "Pune"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 36,
+      "base_price": 1500,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Delhi-Ahmedabad": [
+    {
+      "bus_id": 32,
+      "name": "Royal Roadways #32",
+      "route": [
+        "Delhi",
+        "Ahmedabad"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 618,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 33,
+      "name": "Express Travels #33",
+      "route": [
+        "Delhi",
+        "Ahmedabad"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1495,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Bangalore-Mumbai": [
+    {
+      "bus_id": 34,
+      "name": "Swift Transport #34",
+      "route": [
+        "Bangalore",
+        "Mumbai"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 1625,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 35,
+      "name": "Royal Roadways #35",
+      "route": [
+        "Bangalore",
+        "Mumbai"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 40,
+      "base_price": 1366,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Bangalore-Delhi": [
+    {
+      "bus_id": 36,
+      "name": "Royal Roadways #36",
+      "route": [
+        "Bangalore",
+        "Delhi"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 40,
+      "base_price": 1830,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 37,
+      "name": "Comfort Coaches #37",
+      "route": [
+        "Bangalore",
+        "Delhi"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 36,
+      "base_price": 747,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Bangalore-Chennai": [
+    {
+      "bus_id": 38,
+      "name": "Express Travels #38",
+      "route": [
+        "Bangalore",
+        "Chennai"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 1704,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 39,
+      "name": "Swift Transport #39",
+      "route": [
+        "Bangalore",
+        "Chennai"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 514,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Bangalore-Kolkata": [
+    {
+      "bus_id": 40,
+      "name": "Swift Transport #40",
+      "route": [
+        "Bangalore",
+        "Kolkata"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 32,
+      "base_price": 1176,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 41,
+      "name": "Swift Transport #41",
+      "route": [
+        "Bangalore",
+        "Kolkata"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 40,
+      "base_price": 1494,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Bangalore-Hyderabad": [
+    {
+      "bus_id": 42,
+      "name": "Comfort Coaches #42",
+      "route": [
+        "Bangalore",
+        "Hyderabad"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 1333,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 43,
+      "name": "Express Travels #43",
+      "route": [
+        "Bangalore",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1382,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Bangalore-Pune": [
+    {
+      "bus_id": 44,
+      "name": "Comfort Coaches #44",
+      "route": [
+        "Bangalore",
+        "Pune"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 40,
+      "base_price": 610,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 45,
+      "name": "Express Travels #45",
+      "route": [
+        "Bangalore",
+        "Pune"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 36,
+      "base_price": 1991,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 46,
+      "name": "Express Travels #46",
+      "route": [
+        "Bangalore",
+        "Pune"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 32,
+      "base_price": 889,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Bangalore-Ahmedabad": [
+    {
+      "bus_id": 47,
+      "name": "Swift Transport #47",
+      "route": [
+        "Bangalore",
+        "Ahmedabad"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 32,
+      "base_price": 1070,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 48,
+      "name": "Swift Transport #48",
+      "route": [
+        "Bangalore",
+        "Ahmedabad"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 36,
+      "base_price": 1627,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 49,
+      "name": "Express Travels #49",
+      "route": [
+        "Bangalore",
+        "Ahmedabad"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 40,
+      "base_price": 530,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Chennai-Mumbai": [
+    {
+      "bus_id": 50,
+      "name": "Swift Transport #50",
+      "route": [
+        "Chennai",
+        "Mumbai"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 1485,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 51,
+      "name": "Comfort Coaches #51",
+      "route": [
+        "Chennai",
+        "Mumbai"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 32,
+      "base_price": 1276,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Chennai-Delhi": [
+    {
+      "bus_id": 52,
+      "name": "Royal Roadways #52",
+      "route": [
+        "Chennai",
+        "Delhi"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 1366,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 53,
+      "name": "Comfort Coaches #53",
+      "route": [
+        "Chennai",
+        "Delhi"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 32,
+      "base_price": 1107,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 54,
+      "name": "Express Travels #54",
+      "route": [
+        "Chennai",
+        "Delhi"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 40,
+      "base_price": 1610,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Chennai-Bangalore": [
+    {
+      "bus_id": 55,
+      "name": "Express Travels #55",
+      "route": [
+        "Chennai",
+        "Bangalore"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1476,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 56,
+      "name": "Swift Transport #56",
+      "route": [
+        "Chennai",
+        "Bangalore"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 664,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 57,
+      "name": "Express Travels #57",
+      "route": [
+        "Chennai",
+        "Bangalore"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1882,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Chennai-Kolkata": [
+    {
+      "bus_id": 58,
+      "name": "Express Travels #58",
+      "route": [
+        "Chennai",
+        "Kolkata"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1685,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 59,
+      "name": "Express Travels #59",
+      "route": [
+        "Chennai",
+        "Kolkata"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1358,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 60,
+      "name": "Royal Roadways #60",
+      "route": [
+        "Chennai",
+        "Kolkata"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 1871,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Chennai-Hyderabad": [
+    {
+      "bus_id": 61,
+      "name": "Swift Transport #61",
+      "route": [
+        "Chennai",
+        "Hyderabad"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 36,
+      "base_price": 768,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 62,
+      "name": "Royal Roadways #62",
+      "route": [
+        "Chennai",
+        "Hyderabad"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 648,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 63,
+      "name": "Comfort Coaches #63",
+      "route": [
+        "Chennai",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 40,
+      "base_price": 704,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Chennai-Pune": [
+    {
+      "bus_id": 64,
+      "name": "Royal Roadways #64",
+      "route": [
+        "Chennai",
+        "Pune"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 640,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 65,
+      "name": "Royal Roadways #65",
+      "route": [
+        "Chennai",
+        "Pune"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 1397,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Chennai-Ahmedabad": [
+    {
+      "bus_id": 66,
+      "name": "Express Travels #66",
+      "route": [
+        "Chennai",
+        "Ahmedabad"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 40,
+      "base_price": 1113,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 67,
+      "name": "Express Travels #67",
+      "route": [
+        "Chennai",
+        "Ahmedabad"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 736,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 68,
+      "name": "Swift Transport #68",
+      "route": [
+        "Chennai",
+        "Ahmedabad"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 36,
+      "base_price": 1738,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Kolkata-Mumbai": [
+    {
+      "bus_id": 69,
+      "name": "Swift Transport #69",
+      "route": [
+        "Kolkata",
+        "Mumbai"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 40,
+      "base_price": 1040,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 70,
+      "name": "Comfort Coaches #70",
+      "route": [
+        "Kolkata",
+        "Mumbai"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 689,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 71,
+      "name": "Comfort Coaches #71",
+      "route": [
+        "Kolkata",
+        "Mumbai"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 507,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Kolkata-Delhi": [
+    {
+      "bus_id": 72,
+      "name": "Royal Roadways #72",
+      "route": [
+        "Kolkata",
+        "Delhi"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 1404,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 73,
+      "name": "Comfort Coaches #73",
+      "route": [
+        "Kolkata",
+        "Delhi"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 729,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Kolkata-Bangalore": [
+    {
+      "bus_id": 74,
+      "name": "Express Travels #74",
+      "route": [
+        "Kolkata",
+        "Bangalore"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 40,
+      "base_price": 1631,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 75,
+      "name": "Comfort Coaches #75",
+      "route": [
+        "Kolkata",
+        "Bangalore"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 32,
+      "base_price": 1131,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Kolkata-Chennai": [
+    {
+      "bus_id": 76,
+      "name": "Royal Roadways #76",
+      "route": [
+        "Kolkata",
+        "Chennai"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 1011,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 77,
+      "name": "Express Travels #77",
+      "route": [
+        "Kolkata",
+        "Chennai"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 40,
+      "base_price": 1332,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Kolkata-Hyderabad": [
+    {
+      "bus_id": 78,
+      "name": "Swift Transport #78",
+      "route": [
+        "Kolkata",
+        "Hyderabad"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 32,
+      "base_price": 1344,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 79,
+      "name": "Swift Transport #79",
+      "route": [
+        "Kolkata",
+        "Hyderabad"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 1343,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Kolkata-Pune": [
+    {
+      "bus_id": 80,
+      "name": "Royal Roadways #80",
+      "route": [
+        "Kolkata",
+        "Pune"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 721,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 81,
+      "name": "Express Travels #81",
+      "route": [
+        "Kolkata",
+        "Pune"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 32,
+      "base_price": 908,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Kolkata-Ahmedabad": [
+    {
+      "bus_id": 82,
+      "name": "Royal Roadways #82",
+      "route": [
+        "Kolkata",
+        "Ahmedabad"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 32,
+      "base_price": 548,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 83,
+      "name": "Swift Transport #83",
+      "route": [
+        "Kolkata",
+        "Ahmedabad"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 1070,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 84,
+      "name": "Royal Roadways #84",
+      "route": [
+        "Kolkata",
+        "Ahmedabad"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 40,
+      "base_price": 1543,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Hyderabad-Mumbai": [
+    {
+      "bus_id": 85,
+      "name": "Express Travels #85",
+      "route": [
+        "Hyderabad",
+        "Mumbai"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 36,
+      "base_price": 865,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 86,
+      "name": "Royal Roadways #86",
+      "route": [
+        "Hyderabad",
+        "Mumbai"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 32,
+      "base_price": 1721,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 87,
+      "name": "Royal Roadways #87",
+      "route": [
+        "Hyderabad",
+        "Mumbai"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 1393,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Hyderabad-Delhi": [
+    {
+      "bus_id": 88,
+      "name": "Comfort Coaches #88",
+      "route": [
+        "Hyderabad",
+        "Delhi"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1021,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 89,
+      "name": "Comfort Coaches #89",
+      "route": [
+        "Hyderabad",
+        "Delhi"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1602,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Hyderabad-Bangalore": [
+    {
+      "bus_id": 90,
+      "name": "Royal Roadways #90",
+      "route": [
+        "Hyderabad",
+        "Bangalore"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 32,
+      "base_price": 1860,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 91,
+      "name": "Royal Roadways #91",
+      "route": [
+        "Hyderabad",
+        "Bangalore"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 32,
+      "base_price": 1974,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Hyderabad-Chennai": [
+    {
+      "bus_id": 92,
+      "name": "Comfort Coaches #92",
+      "route": [
+        "Hyderabad",
+        "Chennai"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 36,
+      "base_price": 1927,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 93,
+      "name": "Swift Transport #93",
+      "route": [
+        "Hyderabad",
+        "Chennai"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 1861,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 94,
+      "name": "Swift Transport #94",
+      "route": [
+        "Hyderabad",
+        "Chennai"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 40,
+      "base_price": 1116,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Hyderabad-Kolkata": [
+    {
+      "bus_id": 95,
+      "name": "Royal Roadways #95",
+      "route": [
+        "Hyderabad",
+        "Kolkata"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 1380,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 96,
+      "name": "Royal Roadways #96",
+      "route": [
+        "Hyderabad",
+        "Kolkata"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 1405,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Hyderabad-Pune": [
+    {
+      "bus_id": 97,
+      "name": "Comfort Coaches #97",
+      "route": [
+        "Hyderabad",
+        "Pune"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 32,
+      "base_price": 1849,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 98,
+      "name": "Royal Roadways #98",
+      "route": [
+        "Hyderabad",
+        "Pune"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 40,
+      "base_price": 1796,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Hyderabad-Ahmedabad": [
+    {
+      "bus_id": 99,
+      "name": "Express Travels #99",
+      "route": [
+        "Hyderabad",
+        "Ahmedabad"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 1135,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 100,
+      "name": "Swift Transport #100",
+      "route": [
+        "Hyderabad",
+        "Ahmedabad"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 32,
+      "base_price": 594,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 101,
+      "name": "Comfort Coaches #101",
+      "route": [
+        "Hyderabad",
+        "Ahmedabad"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1432,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Pune-Mumbai": [
+    {
+      "bus_id": 102,
+      "name": "Comfort Coaches #102",
+      "route": [
+        "Pune",
+        "Mumbai"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 999,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 103,
+      "name": "Express Travels #103",
+      "route": [
+        "Pune",
+        "Mumbai"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 36,
+      "base_price": 948,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Pune-Delhi": [
+    {
+      "bus_id": 104,
+      "name": "Express Travels #104",
+      "route": [
+        "Pune",
+        "Delhi"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 748,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 105,
+      "name": "Swift Transport #105",
+      "route": [
+        "Pune",
+        "Delhi"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 40,
+      "base_price": 1587,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 106,
+      "name": "Royal Roadways #106",
+      "route": [
+        "Pune",
+        "Delhi"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 40,
+      "base_price": 1973,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Pune-Bangalore": [
+    {
+      "bus_id": 107,
+      "name": "Comfort Coaches #107",
+      "route": [
+        "Pune",
+        "Bangalore"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 1472,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 108,
+      "name": "Royal Roadways #108",
+      "route": [
+        "Pune",
+        "Bangalore"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 1067,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 109,
+      "name": "Comfort Coaches #109",
+      "route": [
+        "Pune",
+        "Bangalore"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 32,
+      "base_price": 1062,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Pune-Chennai": [
+    {
+      "bus_id": 110,
+      "name": "Royal Roadways #110",
+      "route": [
+        "Pune",
+        "Chennai"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 1187,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 111,
+      "name": "Express Travels #111",
+      "route": [
+        "Pune",
+        "Chennai"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 32,
+      "base_price": 973,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Pune-Kolkata": [
+    {
+      "bus_id": 112,
+      "name": "Swift Transport #112",
+      "route": [
+        "Pune",
+        "Kolkata"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 36,
+      "base_price": 1334,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 113,
+      "name": "Comfort Coaches #113",
+      "route": [
+        "Pune",
+        "Kolkata"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 32,
+      "base_price": 923,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Pune-Hyderabad": [
+    {
+      "bus_id": 114,
+      "name": "Express Travels #114",
+      "route": [
+        "Pune",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 36,
+      "base_price": 1476,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 115,
+      "name": "Royal Roadways #115",
+      "route": [
+        "Pune",
+        "Hyderabad"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 36,
+      "base_price": 1358,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 116,
+      "name": "Swift Transport #116",
+      "route": [
+        "Pune",
+        "Hyderabad"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 32,
+      "base_price": 1058,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Pune-Ahmedabad": [
+    {
+      "bus_id": 117,
+      "name": "Express Travels #117",
+      "route": [
+        "Pune",
+        "Ahmedabad"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 1869,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 118,
+      "name": "Comfort Coaches #118",
+      "route": [
+        "Pune",
+        "Ahmedabad"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 32,
+      "base_price": 1457,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 119,
+      "name": "Express Travels #119",
+      "route": [
+        "Pune",
+        "Ahmedabad"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 40,
+      "base_price": 1655,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Ahmedabad-Mumbai": [
+    {
+      "bus_id": 120,
+      "name": "Express Travels #120",
+      "route": [
+        "Ahmedabad",
+        "Mumbai"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 777,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 121,
+      "name": "Swift Transport #121",
+      "route": [
+        "Ahmedabad",
+        "Mumbai"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 36,
+      "base_price": 1276,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Ahmedabad-Delhi": [
+    {
+      "bus_id": 122,
+      "name": "Comfort Coaches #122",
+      "route": [
+        "Ahmedabad",
+        "Delhi"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 36,
+      "base_price": 1276,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 123,
+      "name": "Comfort Coaches #123",
+      "route": [
+        "Ahmedabad",
+        "Delhi"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 32,
+      "base_price": 1463,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Ahmedabad-Bangalore": [
+    {
+      "bus_id": 124,
+      "name": "Royal Roadways #124",
+      "route": [
+        "Ahmedabad",
+        "Bangalore"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 40,
+      "base_price": 640,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 125,
+      "name": "Express Travels #125",
+      "route": [
+        "Ahmedabad",
+        "Bangalore"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 32,
+      "base_price": 908,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ],
+  "Ahmedabad-Chennai": [
+    {
+      "bus_id": 126,
+      "name": "Swift Transport #126",
+      "route": [
+        "Ahmedabad",
+        "Chennai"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 1871,
+      "bus_type": "Seater",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 127,
+      "name": "Swift Transport #127",
+      "route": [
+        "Ahmedabad",
+        "Chennai"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 40,
+      "base_price": 1024,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Ahmedabad-Kolkata": [
+    {
+      "bus_id": 128,
+      "name": "Express Travels #128",
+      "route": [
+        "Ahmedabad",
+        "Kolkata"
+      ],
+      "departure_time": "09:00 AM",
+      "total_seats": 36,
+      "base_price": 721,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 129,
+      "name": "Express Travels #129",
+      "route": [
+        "Ahmedabad",
+        "Kolkata"
+      ],
+      "departure_time": "12:00 PM",
+      "total_seats": 40,
+      "base_price": 1887,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Ahmedabad-Hyderabad": [
+    {
+      "bus_id": 130,
+      "name": "Swift Transport #130",
+      "route": [
+        "Ahmedabad",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1914,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 131,
+      "name": "Swift Transport #131",
+      "route": [
+        "Ahmedabad",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1117,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 132,
+      "name": "Express Travels #132",
+      "route": [
+        "Ahmedabad",
+        "Hyderabad"
+      ],
+      "departure_time": "06:00 PM",
+      "total_seats": 32,
+      "base_price": 1211,
+      "bus_type": "Sleeper",
+      "booked_seats": []
+    }
+  ],
+  "Ahmedabad-Pune": [
+    {
+      "bus_id": 133,
+      "name": "Royal Roadways #133",
+      "route": [
+        "Ahmedabad",
+        "Pune"
+      ],
+      "departure_time": "06:00 AM",
+      "total_seats": 40,
+      "base_price": 1826,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 134,
+      "name": "Express Travels #134",
+      "route": [
+        "Ahmedabad",
+        "Pune"
+      ],
+      "departure_time": "03:00 PM",
+      "total_seats": 36,
+      "base_price": 716,
+      "bus_type": "Semi-Sleeper",
+      "booked_seats": []
+    },
+    {
+      "bus_id": 135,
+      "name": "Royal Roadways #135",
+      "route": [
+        "Ahmedabad",
+        "Pune"
+      ],
+      "departure_time": "09:00 PM",
+      "total_seats": 36,
+      "base_price": 1948,
+      "bus_type": "Seater",
+      "booked_seats": []
+    }
+  ]
+}
